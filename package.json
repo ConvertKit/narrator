@@ -1,0 +1,14 @@
+{
+  "name": "morgan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grant Ammons <gammons@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.7"
+  }
+}

@@ -4,6 +4,6 @@ exports.handler = function(event, context, callback) {
 
   callback(null, {
     statusCode: 200,
-    body: parsed.text
+    body: "_" + parsed.text + "_"
   });
 };

@@ -1,4 +1,5 @@
 exports.handler = function(event, context, callback) {
+  console.log("event is ", event);
   console.log(event.queryStringParameters);
 
   const resp = { text: event.queryStringParameters.text };
